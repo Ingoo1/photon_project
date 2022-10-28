@@ -24,3 +24,23 @@ header h2 {
   text-decoration: none;
   color: black;
 }
+
+.search-form {
+  padding: 2rem;
+  display: flex;
+}
+.search-form input {
+  font-size: 2rem;
+  padding: 0.5rem;
+  width: 100%;
+  border: none;
+  border: 2px solid rgb(74, 68, 131);
+}
+.search-form button {
+  border: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+  background: rgb(74, 68, 131);
+  color: white;
+  cursor: pointer;
+}
